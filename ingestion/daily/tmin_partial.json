@@ -23,7 +23,7 @@
                 "aggregation"
             ],
             "files": [
-                "/home/hawaii_climate_products_container/preliminary/air_temp/data_outputs/tables/station_data/daily/raw_qc/statewide/daily_Tmin_%y_%m_qc.csv"
+                "/ingest/daily_Tmin_%y_%m_qc.csv"
             ]
         }
     ]
