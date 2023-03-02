@@ -1,5 +1,9 @@
 {
-    "comment": "T_max Partially Filled Data",
+    "comment": "T_max Partial-Filled Data",
+    "download_base_url": "https://ikeauth.its.hawaii.edu/files/v2/download/public/system/ikewai-annotated-data/HCDP",
+    "download": [
+        "/production/temperature/max/day/statewide/partial/station_data/%y/%m/temperature_max_day_statewide_partial_station_data_%y_%m.csv"
+    ],
     "tapis_config": {
         "tenant_url": "https://agaveauth.its.hawaii.edu/meta/v2/data",
         "token": "insert_token",
@@ -23,7 +27,7 @@
                 "aggregation"
             ],
             "files": [
-                    "/home/hawaii_climate_products_container/preliminary/air_temp/data_outputs/tables/station_data/daily/raw_qc/statewide/daily_Tmax_%y_%m_qc.csv"
+                "/ingest/temperature_max_day_statewide_partial_station_data_%y_%m.csv"
             ]
         }
     ]
