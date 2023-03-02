@@ -12,7 +12,7 @@
     },
     "data": [
         {   "replace_duplicates": false,
-            "data_col_start": 14,
+            "data_col_start": 13,
             "id_col": 0,
             "nodata": "NA",
             "datatype": "temperature",
