@@ -1,8 +1,8 @@
 {
-    "comment": "T_min Partially-Filled Data - Daily",
+    "comment": "T_min Raw Monthly Data",
     "download_base_url": "https://ikeauth.its.hawaii.edu/files/v2/download/public/system/ikewai-annotated-data/HCDP",
     "download": [
-        "/production/temperature/min/day/statewide/partial/station_data/%y/%m/temperature_min_day_statewide_partial_station_data_%y_%m.csv"
+        "/production/temperature/min/month/statewide/raw/station_data/%y/temperature_min_day_statewide_raw_station_data_%y.csv"
     ],
     "tapis_config": {
         "tenant_url": "https://agaveauth.its.hawaii.edu/meta/v2/data",
@@ -17,9 +17,9 @@
             "nodata": "NA",
             "datatype": "temperature",
             "period": "day",
-            "start_date": "%y-%m-%d", 
-            "end_date": "%y-%m-%d",
-            "fill": "partial",
+            "start_date": "%y-%m", 
+            "end_date": "%y-%m",
+            "fill": "raw",
             "additional_properties": {
                 "aggregation": "min"
             },
@@ -27,7 +27,7 @@
                 "aggregation"
             ],
             "files": [
-                "/ingest/temperature_min_day_statewide_partial_station_data_%y_%m.csv"
+                "/ingest/temperature_min_day_statewide_raw_station_data_%y.csv"
             ]
         }
     ]
