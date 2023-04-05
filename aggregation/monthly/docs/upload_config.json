@@ -373,7 +373,7 @@
                 }
             ]
         },{
-            "local_path": "/home/hawaii_climate_products_container/preliminary/air_temp/data_outputs/metadata/monthly/statewide/%y%m_Tmax_state_meta.txt",
+            "local_path": "/home/hawaii_climate_products_container/preliminary/air_temp/data_outputs/metadata/monthly/statewide/%y%m_Tmax_state_meta_monthly.txt",
             "remote_path": "HCDP/production/temperature/max/month/statewide/metadata/%y",
             "rename": "temperature_max_month_statewide_metadata_%y_%m.txt",
             "system_id": "ikewai-annotated-data",
@@ -385,7 +385,7 @@
                 }
             ]
         },{
-            "local_path": "/home/hawaii_climate_products_container/preliminary/air_temp/data_outputs/metadata/monthly/statewide/%y%m_Tmin_state_meta.txt",
+            "local_path": "/home/hawaii_climate_products_container/preliminary/air_temp/data_outputs/metadata/monthly/statewide/%y%m_Tmin_state_meta_monthly.txt",
             "remote_path": "HCDP/production/temperature/min/month/statewide/metadata/%y",
             "rename": "temperature_min_month_statewide_metadata_%y_%m.txt",
             "system_id": "ikewai-annotated-data",
@@ -397,7 +397,7 @@
                 }
             ]
         },{
-            "local_path": "/home/hawaii_climate_products_container/preliminary/air_temp/data_outputs/metadata/monthly/statewide/%y%m_Tmean_state_meta.txt",
+            "local_path": "/home/hawaii_climate_products_container/preliminary/air_temp/data_outputs/metadata/monthly/statewide/%y%m_Tmean_state_meta_monthly.txt",
             "remote_path": "HCDP/production/temperature/mean/month/statewide/metadata/%y",
             "rename": "temperature_mean_month_statewide_metadata_%y_%m.txt",
             "system_id": "ikewai-annotated-data",
@@ -409,7 +409,7 @@
                 }
             ]
         },{
-            "local_path": "/home/hawaii_climate_products_container/preliminary/air_temp/data_outputs/metadata/monthly/county/BI/%y%m_Tmax_BI_meta.txt",
+            "local_path": "/home/hawaii_climate_products_container/preliminary/air_temp/data_outputs/metadata/monthly/county/BI/%y%m_Tmax_BI_meta_monthly.txt",
             "remote_path": "HCDP/production/temperature/max/month/bi/metadata/%y",
             "rename": "temperature_max_month_bi_metadata_%y_%m.txt",
             "system_id": "ikewai-annotated-data",
@@ -421,7 +421,7 @@
                 }
             ]
         },{
-            "local_path": "/home/hawaii_climate_products_container/preliminary/air_temp/data_outputs/metadata/monthly/county/BI/%y%m_Tmin_BI_meta.txt",
+            "local_path": "/home/hawaii_climate_products_container/preliminary/air_temp/data_outputs/metadata/monthly/county/BI/%y%m_Tmin_BI_meta_monthly.txt",
             "remote_path": "HCDP/production/temperature/min/month/bi/metadata/%y",
             "rename": "temperature_min_month_bi_metadata_%y_%m.txt",
             "system_id": "ikewai-annotated-data",
@@ -433,7 +433,7 @@
                 }
             ]
         },{
-            "local_path": "/home/hawaii_climate_products_container/preliminary/air_temp/data_outputs/metadata/monthly/county/BI/%y%m_Tmean_BI_meta.txt",
+            "local_path": "/home/hawaii_climate_products_container/preliminary/air_temp/data_outputs/metadata/monthly/county/BI/%y%m_Tmean_BI_meta_monthly.txt",
             "remote_path": "HCDP/production/temperature/mean/month/bi/metadata/%y",
             "rename": "temperature_mean_month_bi_metadata_%y_%m.txt",
             "system_id": "ikewai-annotated-data",
@@ -445,7 +445,7 @@
                 }
             ]
         },{
-            "local_path": "/home/hawaii_climate_products_container/preliminary/air_temp/data_outputs/metadata/monthly/county/KA/%y%m_Tmax_KA_meta.txt",
+            "local_path": "/home/hawaii_climate_products_container/preliminary/air_temp/data_outputs/metadata/monthly/county/KA/%y%m_Tmax_KA_meta_monthly.txt",
             "remote_path": "HCDP/production/temperature/max/month/ka/metadata/%y",
             "rename": "temperature_max_month_ka_metadata_%y_%m.txt",
             "system_id": "ikewai-annotated-data",
@@ -457,7 +457,7 @@
                 }
             ]
         },{
-            "local_path": "/home/hawaii_climate_products_container/preliminary/air_temp/data_outputs/metadata/monthly/county/KA/%y%m_Tmin_KA_meta.txt",
+            "local_path": "/home/hawaii_climate_products_container/preliminary/air_temp/data_outputs/metadata/monthly/county/KA/%y%m_Tmin_KA_meta_monthly.txt",
             "remote_path": "HCDP/production/temperature/min/month/ka/metadata/%y",
             "rename": "temperature_min_month_ka_metadata_%y_%m.txt",
             "system_id": "ikewai-annotated-data",
@@ -469,7 +469,7 @@
                 }
             ]
         },{
-            "local_path": "/home/hawaii_climate_products_container/preliminary/air_temp/data_outputs/metadata/monthly/county/KA/%y%m_Tmean_KA_meta.txt",
+            "local_path": "/home/hawaii_climate_products_container/preliminary/air_temp/data_outputs/metadata/monthly/county/KA/%y%m_Tmean_KA_meta_monthly.txt",
             "remote_path": "HCDP/production/temperature/mean/month/ka/metadata/%y",
             "rename": "temperature_mean_month_ka_metadata_%y_%m.txt",
             "system_id": "ikewai-annotated-data",
@@ -481,7 +481,7 @@
                 }
             ]
         },{
-            "local_path": "/home/hawaii_climate_products_container/preliminary/air_temp/data_outputs/metadata/monthly/county/MN/%y%m_Tmax_MN_meta.txt",
+            "local_path": "/home/hawaii_climate_products_container/preliminary/air_temp/data_outputs/metadata/monthly/county/MN/%y%m_Tmax_MN_meta_monthly.txt",
             "remote_path": "HCDP/production/temperature/max/month/mn/metadata/%y",
             "rename": "temperature_max_month_mn_metadata_%y_%m.txt",
             "system_id": "ikewai-annotated-data",
@@ -493,7 +493,7 @@
                 }
             ]
         },{
-            "local_path": "/home/hawaii_climate_products_container/preliminary/air_temp/data_outputs/metadata/monthly/county/MN/%y%m_Tmin_MN_meta.txt",
+            "local_path": "/home/hawaii_climate_products_container/preliminary/air_temp/data_outputs/metadata/monthly/county/MN/%y%m_Tmin_MN_meta_monthly.txt",
             "remote_path": "HCDP/production/temperature/min/month/mn/metadata/%y",
             "rename": "temperature_min_month_mn_metadata_%y_%m.txt",
             "system_id": "ikewai-annotated-data",
@@ -505,7 +505,7 @@
                 }
             ]
         },{
-            "local_path": "/home/hawaii_climate_products_container/preliminary/air_temp/data_outputs/metadata/monthly/county/MN/%y%m_Tmean_MN_meta.txt",
+            "local_path": "/home/hawaii_climate_products_container/preliminary/air_temp/data_outputs/metadata/monthly/county/MN/%y%m_Tmean_MN_meta_monthly.txt",
             "remote_path": "HCDP/production/temperature/mean/month/mn/metadata/%y",
             "rename": "temperature_mean_month_mn_metadata_%y_%m.txt",
             "system_id": "ikewai-annotated-data",
@@ -517,7 +517,7 @@
                 }
             ]
         },{
-            "local_path": "/home/hawaii_climate_products_container/preliminary/air_temp/data_outputs/metadata/monthly/county/OA/%y%m_Tmax_OA_meta.txt",
+            "local_path": "/home/hawaii_climate_products_container/preliminary/air_temp/data_outputs/metadata/monthly/county/OA/%y%m_Tmax_OA_meta_monthly.txt",
             "remote_path": "HCDP/production/temperature/max/month/oa/metadata/%y",
             "rename": "temperature_max_month_oa_metadata_%y_%m.txt",
             "system_id": "ikewai-annotated-data",
@@ -529,7 +529,7 @@
                 }
             ]
         },{
-            "local_path": "/home/hawaii_climate_products_container/preliminary/air_temp/data_outputs/metadata/monthly/county/OA/%y%m_Tmin_OA_meta.txt",
+            "local_path": "/home/hawaii_climate_products_container/preliminary/air_temp/data_outputs/metadata/monthly/county/OA/%y%m_Tmin_OA_meta_monthly.txt",
             "remote_path": "HCDP/production/temperature/min/month/oa/metadata/%y",
             "rename": "temperature_min_month_oa_metadata_%y_%m.txt",
             "system_id": "ikewai-annotated-data",
@@ -541,7 +541,7 @@
                 }
             ]
         },{
-            "local_path": "/home/hawaii_climate_products_container/preliminary/air_temp/data_outputs/metadata/monthly/county/OA/%y%m_Tmean_OA_meta.txt",
+            "local_path": "/home/hawaii_climate_products_container/preliminary/air_temp/data_outputs/metadata/monthly/county/OA/%y%m_Tmean_OA_meta_monthly.txt",
             "remote_path": "HCDP/production/temperature/mean/month/oa/metadata/%y",
             "rename": "temperature_mean_month_oa_metadata_%y_%m.txt",
             "system_id": "ikewai-annotated-data",
