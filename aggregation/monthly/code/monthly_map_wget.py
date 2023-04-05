@@ -16,7 +16,7 @@ LOCAL_TEMP = LOCAL_PARENT + r'air_temp/data_outputs/tables/station_data/daily/ra
 if __name__=="__main__":
     if len(sys.argv) > 1:
         input_date = sys.argv[1]
-        dt = to_datetime(input_date)
+        dt = to_datetime(input_date, format="ISO8601")
         this_year = dt.year
         this_mon = dt.month
         month_st = datetime(this_year,this_mon,1)
