@@ -16,7 +16,7 @@
             "id_col": 0,
             "nodata": "NA",
             "datatype": "temperature",
-            "period": "day",
+            "period": "month",
             "start_date": "%y-%m", 
             "end_date": "%y-%m",
             "fill": "partial",
