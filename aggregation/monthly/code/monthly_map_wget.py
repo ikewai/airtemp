@@ -12,6 +12,7 @@ DEPEND_DIR = r'https://ikeauth.its.hawaii.edu/files/v2/download/public/system/ik
 LOCAL_PARENT = r'/home/hawaii_climate_products_container/preliminary/'
 LOCAL_DEPEND = LOCAL_PARENT + r'air_temp/monthly/'
 LOCAL_TEMP = LOCAL_PARENT + r'air_temp/data_outputs/tables/station_data/daily/raw_qc/statewide/'
+LOCAL_MONTH = LOCAL_PARENT + r'air_temp/data_outputs/tables/station_data/monthly/raw_qc/statewide/'
 
 if __name__=="__main__":
     if len(sys.argv) > 1:
@@ -55,6 +56,20 @@ if __name__=="__main__":
     src_url = REMOTE_BASEURL + r'max/day/statewide/partial/station_data/'+year_str+r'/'+mon_str+r'/'
     filename = src_url + r'_'.join(('temperature','max','day_statewide_partial_station_data',year_str,mon_str)) + r'.csv'
     local_name = LOCAL_TEMP + r'_'.join(('daily','Tmax',year_str,mon_str,'qc')) + r'.csv'
+    cmd = ["wget",filename,"-O",local_name]
+    subprocess.call(cmd)
+
+    #Tmin monthly stations pull
+    src_url = REMOTE_BASEURL + r'min/month/statewide/partial/station_data/'+year_str+r'/'
+    filename = src_url + r'_'.join(('temperature','min','month_statewide_partial_station_data',year_str))+r'.csv'
+    local_name = LOCAL_MONTH + r'_'.join(('monthly','Tmin',year_str,'qc'))+r'.csv'
+    cmd = ["wget",filename,"-O",local_name]
+    subprocess.call(cmd)
+
+    #Tmax monthly stations pull
+    src_url = REMOTE_BASEURL + r'max/month/statewide/partial/station_data/'+year_str+r'/'
+    filename = src_url + r'_'.join(('temperature','max','month_statewide_partial_station_data',year_str))+r'.csv'
+    local_name = LOCAL_MONTH + r'_'.join(('monthly','Tmax',year_str,'qc'))+r'.csv'
     cmd = ["wget",filename,"-O",local_name]
     subprocess.call(cmd)
 
