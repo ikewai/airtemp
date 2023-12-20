@@ -110,11 +110,7 @@ def qc_state_aggregate(varname,date_str):
     date_year = date_str.split('-')[0]
     date_mon = date_str.split('-')[1]
     csv_name = QC_OUTPUT_DIR + '_'.join(('daily',varname,date_year,date_mon,'qc')) + '.csv'
-    try:
-        state_df = pd.read_csv(csv_name)
-    except:
-        print(f"File {csv_name} was not found. Defaulting to empty frame for statewide qc data.")
-        state_df = pd.DataFrame()
+    state_df = pd.DataFrame()
     for icode in ICODE_LIST:
         fname = QC_DATA_DIR + '_'.join(('daily',varname,icode.upper(),date_year,date_mon,'qc')) + '.csv'
         #county_code = icode.lower()
