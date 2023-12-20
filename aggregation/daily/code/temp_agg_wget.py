@@ -49,13 +49,13 @@ if __name__=='__main__':
     # Tmin
     src_url = REMOTE_BASEURL + r'min/day/statewide/partial/station_data/'+year_str+r'/'+mon_str+r'/'
     filename = src_url + r'_'.join(('temperature','min','day_statewide_partial_station_data',prev_day_mon)) + r'.csv'
-    local_name =  f"{LOCAL_PARENT}air_temp/data_outputs/tables/station_data/daily/raw_qc/statewide/daily_Tmin_{prev_day_mon}.csv"
+    local_name =  f"{LOCAL_PARENT}air_temp/data_outputs/tables/station_data/daily/raw_qc/statewide/daily_Tmin_{prev_day_mon}_qc.csv"
     cmd = ["wget",filename,"-O",local_name]
     subprocess.call(cmd)
     # Tmax
     src_url = REMOTE_BASEURL + r'max/day/statewide/partial/station_data/'+year_str+r'/'+mon_str+r'/'
     filename = src_url + r'_'.join(('temperature','max','day_statewide_partial_station_data',prev_day_mon)) + r'.csv'
-    local_name =  f"{LOCAL_PARENT}air_temp/data_outputs/tables/station_data/daily/raw_qc/statewide/daily_Tmax_{prev_day_mon}.csv"
+    local_name =  f"{LOCAL_PARENT}air_temp/data_outputs/tables/station_data/daily/raw_qc/statewide/daily_Tmax_{prev_day_mon}_qc.csv"
     cmd = ["wget",filename,"-O",local_name]
     subprocess.call(cmd)
     
