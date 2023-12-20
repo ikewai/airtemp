@@ -72,3 +72,37 @@ if __name__=='__main__':
     local_name = LOCAL_TEMP + r'_'.join(('daily','Tmax',prev_day_mon)) + r'.csv'
     cmd = ["wget",filename,"-O",local_name]
     subprocess.call(cmd)
+
+    # Intermediate Working Data
+    src_url = f"https://ikeauth.its.hawaii.edu/files/v2/download/public/system/ikewai-annotated-data/HCDP/temperature/working_data/processed_data/madis/{year_str}/{mon_str}/"
+    filename = f"{src_url}+Tmin_madis_{year_str}_{mon_str}_processed.csv"
+    local_name =  f"{LOCAL_PARENT}air_temp/working_data/processed_data/madis/Tmin_madis_{year_str}_{mon_str}_processed.csv"
+    cmd = ["wget",filename,"-O",local_name]
+    subprocess.call(cmd)
+    if os.path.getsize(local_name) == 0:
+        os.remove(local_name)
+
+    src_url = f"https://ikeauth.its.hawaii.edu/files/v2/download/public/system/ikewai-annotated-data/HCDP/temperature/working_data/processed_data/madis/{year_str}/{mon_str}/"
+    filename = f"{src_url}+Tmax_madis_{year_str}_{mon_str}_processed.csv"
+    local_name =  f"{LOCAL_PARENT}air_temp/working_data/processed_data/madis/Tmax_madis_{year_str}_{mon_str}_processed.csv"
+    cmd = ["wget",filename,"-O",local_name]
+    subprocess.call(cmd)
+    if os.path.getsize(local_name) == 0:
+        os.remove(local_name)
+
+    src_url = f"https://ikeauth.its.hawaii.edu/files/v2/download/public/system/ikewai-annotated-data/HCDP/temperature/working_data/processed_data/hads/{year_str}/{mon_str}/"
+    filename = f"{src_url}+Tmin_hads_{year_str}_{mon_str}_processed.csv"
+    local_name =  f"{LOCAL_PARENT}air_temp/working_data/processed_data/hads/Tmin_hads_{year_str}_{mon_str}_processed.csv"
+    cmd = ["wget",filename,"-O",local_name]
+    subprocess.call(cmd)
+    if os.path.getsize(local_name) == 0:
+        os.remove(local_name)
+
+    src_url = f"https://ikeauth.its.hawaii.edu/files/v2/download/public/system/ikewai-annotated-data/HCDP/temperature/working_data/processed_data/hads/{year_str}/{mon_str}/"
+    filename = f"{src_url}+Tmax_hads_{year_str}_{mon_str}_processed.csv"
+    local_name =  f"{LOCAL_PARENT}air_temp/working_data/processed_data/hads/Tmax_hads_{year_str}_{mon_str}_processed.csv"
+    cmd = ["wget",filename,"-O",local_name]
+    subprocess.call(cmd)
+    if os.path.getsize(local_name) == 0:
+        os.remove(local_name)
+
