@@ -636,7 +636,54 @@
                     "username": "public"
                 }
             ]
+        },{
+            "local_path": "/home/hawaii_climate_products_container/preliminary/air_temp/working_data/processed_data/hads/Tmin_hads_%y_%m_processed.csv",
+            "remote_path": "HCDP/temperature/working_data/processed_data/hads/%y/%m/",
+            "rename": "Tmin_hads_%y_%m_processed.csv",
+            "system_id": "ikewai-annotated-data",
+            "dir_permissions": [
+                {
+                    "permission": "READ",
+                    "recursive": true,
+                    "username": "public"
+                }
+            ]
+        },{
+            "local_path": "/home/hawaii_climate_products_container/preliminary/air_temp/working_data/processed_data/hads/Tmax_hads_%y_%m_processed.csv",
+            "remote_path": "HCDP/temperature/working_data/processed_data/hads/%y/%m/",
+            "rename": "Tmax_hads_%y_%m_processed.csv",
+            "system_id": "ikewai-annotated-data",
+            "dir_permissions": [
+                {
+                    "permission": "READ",
+                    "recursive": true,
+                    "username": "public"
+                }
+            ]
+        },{
+            "local_path": "/home/hawaii_climate_products_container/preliminary/air_temp/working_data/processed_data/madis/Tmin_madis_%y_%m_processed.csv",
+            "remote_path": "HCDP/temperature/working_data/processed_data/madis/%y/%m/",
+            "rename": "Tmin_madis_%y_%m_processed.csv",
+            "system_id": "ikewai-annotated-data",
+            "dir_permissions": [
+                {
+                    "permission": "READ",
+                    "recursive": true,
+                    "username": "public"
+                }
+            ]
+        },{
+            "local_path": "/home/hawaii_climate_products_container/preliminary/air_temp/working_data/processed_data/madis/Tmax_madis_%y_%m_processed.csv",
+            "remote_path": "HCDP/temperature/working_data/processed_data/madis/%y/%m/",
+            "rename": "Tmax_madis_%y_%m_processed.csv",
+            "system_id": "ikewai-annotated-data",
+            "dir_permissions": [
+                {
+                    "permission": "READ",
+                    "recursive": true,
+                    "username": "public"
+                }
+            ]
         }
-
     ]
 }
