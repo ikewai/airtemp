@@ -10,6 +10,7 @@ import sys
 import subprocess
 import pytz
 import pandas as pd
+import os
 from datetime import datetime, timedelta
 
 PARENT_DIR = r'https://ikeauth.its.hawaii.edu/files/v2/download/public/system/ikewai-annotated-data/HCDP/workflow_data/preliminary_test/'
