@@ -107,3 +107,66 @@ if __name__=='__main__':
     if os.path.getsize(local_name) == 0:
         os.remove(local_name)
 
+    src_url = f"https://ikeauth.its.hawaii.edu/files/v2/download/public/system/ikewai-annotated-data/HCDP/production/temperature/max/day/mn/partial/station_data/{year_str}/{mon_str}/"
+    filename = f"{src_url}temperature_max_day_mn_partial_station_data_{year_str}_{mon_str}.csv"
+    local_name =  f"{LOCAL_PARENT}air_temp/data_outputs/tables/station_data/daily/raw_qc/county/daily_Tmax_MN_{year_str}_{mon_str}.csv"
+    cmd = ["wget",filename,"-O",local_name]
+    subprocess.call(cmd)
+    if os.path.getsize(local_name) == 0:
+        os.remove(local_name)
+
+    src_url = f"https://ikeauth.its.hawaii.edu/files/v2/download/public/system/ikewai-annotated-data/HCDP/production/temperature/min/day/mn/partial/station_data/{year_str}/{mon_str}/"
+    filename = f"{src_url}temperature_min_day_mn_partial_station_data_{year_str}_{mon_str}.csv"
+    local_name =  f"{LOCAL_PARENT}air_temp/data_outputs/tables/station_data/daily/raw_qc/county/daily_Tmin_MN_{year_str}_{mon_str}.csv"
+    cmd = ["wget",filename,"-O",local_name]
+    subprocess.call(cmd)
+    if os.path.getsize(local_name) == 0:
+        os.remove(local_name)
+
+    src_url = f"https://ikeauth.its.hawaii.edu/files/v2/download/public/system/ikewai-annotated-data/HCDP/production/temperature/max/day/bi/partial/station_data/{year_str}/{mon_str}/"
+    filename = f"{src_url}temperature_max_day_bi_partial_station_data_{year_str}_{mon_str}.csv"
+    local_name =  f"{LOCAL_PARENT}air_temp/data_outputs/tables/station_data/daily/raw_qc/county/daily_Tmax_BI_{year_str}_{mon_str}.csv"
+    cmd = ["wget",filename,"-O",local_name]
+    subprocess.call(cmd)
+    if os.path.getsize(local_name) == 0:
+        os.remove(local_name)
+
+    src_url = f"https://ikeauth.its.hawaii.edu/files/v2/download/public/system/ikewai-annotated-data/HCDP/production/temperature/min/day/bi/partial/station_data/{year_str}/{mon_str}/"
+    filename = f"{src_url}temperature_min_day_bi_partial_station_data_{year_str}_{mon_str}.csv"
+    local_name =  f"{LOCAL_PARENT}air_temp/data_outputs/tables/station_data/daily/raw_qc/county/daily_Tmin_BI_{year_str}_{mon_str}.csv"
+    cmd = ["wget",filename,"-O",local_name]
+    subprocess.call(cmd)
+    if os.path.getsize(local_name) == 0:
+        os.remove(local_name)
+
+    src_url = f"https://ikeauth.its.hawaii.edu/files/v2/download/public/system/ikewai-annotated-data/HCDP/production/temperature/max/day/ka/partial/station_data/{year_str}/{mon_str}/"
+    filename = f"{src_url}temperature_max_day_ka_partial_station_data_{year_str}_{mon_str}.csv"
+    local_name =  f"{LOCAL_PARENT}air_temp/data_outputs/tables/station_data/daily/raw_qc/county/daily_Tmax_KA_{year_str}_{mon_str}.csv"
+    cmd = ["wget",filename,"-O",local_name]
+    subprocess.call(cmd)
+    if os.path.getsize(local_name) == 0:
+        os.remove(local_name)
+
+    src_url = f"https://ikeauth.its.hawaii.edu/files/v2/download/public/system/ikewai-annotated-data/HCDP/production/temperature/min/day/ka/partial/station_data/{year_str}/{mon_str}/"
+    filename = f"{src_url}temperature_min_day_ka_partial_station_data_{year_str}_{mon_str}.csv"
+    local_name =  f"{LOCAL_PARENT}air_temp/data_outputs/tables/station_data/daily/raw_qc/county/daily_Tmin_KA_{year_str}_{mon_str}.csv"
+    cmd = ["wget",filename,"-O",local_name]
+    subprocess.call(cmd)
+    if os.path.getsize(local_name) == 0:
+        os.remove(local_name)
+
+    src_url = f"https://ikeauth.its.hawaii.edu/files/v2/download/public/system/ikewai-annotated-data/HCDP/production/temperature/max/day/oa/partial/station_data/{year_str}/{mon_str}/"
+    filename = f"{src_url}temperature_max_day_oa_partial_station_data_{year_str}_{mon_str}.csv"
+    local_name =  f"{LOCAL_PARENT}air_temp/data_outputs/tables/station_data/daily/raw_qc/county/daily_Tmax_OA_{year_str}_{mon_str}.csv"
+    cmd = ["wget",filename,"-O",local_name]
+    subprocess.call(cmd)
+    if os.path.getsize(local_name) == 0:
+        os.remove(local_name)
+
+    src_url = f"https://ikeauth.its.hawaii.edu/files/v2/download/public/system/ikewai-annotated-data/HCDP/production/temperature/min/day/oa/partial/station_data/{year_str}/{mon_str}/"
+    filename = f"{src_url}temperature_min_day_oa_partial_station_data_{year_str}_{mon_str}.csv"
+    local_name =  f"{LOCAL_PARENT}air_temp/data_outputs/tables/station_data/daily/raw_qc/county/daily_Tmin_OA_{year_str}_{mon_str}.csv"
+    cmd = ["wget",filename,"-O",local_name]
+    subprocess.call(cmd)
+    if os.path.getsize(local_name) == 0:
+        os.remove(local_name)

@@ -637,6 +637,102 @@
                 }
             ]
         },{
+            "local_path": "/home/hawaii_climate_products_container/preliminary/air_temp/data_outputs/tables/station_data/daily/raw_qc/county/daily_Tmax_MN_%y_%m_qc.csv",
+            "remote_path": "HCDP/production/temperature/max/day/mn/partial/station_data/%y/%m",
+            "rename": "temperature_max_day_mn_partial_station_data_%y_%m.csv",
+            "system_id": "ikewai-annotated-data",
+            "dir_permissions": [
+                {
+                    "permission": "READ",
+                    "recursive": true,
+                    "username": "public"
+                }
+            ]
+        },{
+            "local_path": "/home/hawaii_climate_products_container/preliminary/air_temp/data_outputs/tables/station_data/daily/raw_qc/county/daily_Tmin_MN_%y_%m_qc.csv",
+            "remote_path": "HCDP/production/temperature/min/day/mn/partial/station_data/%y/%m",
+            "rename": "temperature_min_day_mn_partial_station_data_%y_%m.csv",
+            "system_id": "ikewai-annotated-data",
+            "dir_permissions": [
+                {
+                    "permission": "READ",
+                    "recursive": true,
+                    "username": "public"
+                }
+            ]
+        },{
+            "local_path": "/home/hawaii_climate_products_container/preliminary/air_temp/data_outputs/tables/station_data/daily/raw_qc/county/daily_Tmax_BI_%y_%m_qc.csv",
+            "remote_path": "HCDP/production/temperature/max/day/bi/partial/station_data/%y/%m",
+            "rename": "temperature_max_day_bi_partial_station_data_%y_%m.csv",
+            "system_id": "ikewai-annotated-data",
+            "dir_permissions": [
+                {
+                    "permission": "READ",
+                    "recursive": true,
+                    "username": "public"
+                }
+            ]
+        },{
+            "local_path": "/home/hawaii_climate_products_container/preliminary/air_temp/data_outputs/tables/station_data/daily/raw_qc/county/daily_Tmin_BI_%y_%m_qc.csv",
+            "remote_path": "HCDP/production/temperature/min/day/bi/partial/station_data/%y/%m",
+            "rename": "temperature_min_day_bi_partial_station_data_%y_%m.csv",
+            "system_id": "ikewai-annotated-data",
+            "dir_permissions": [
+                {
+                    "permission": "READ",
+                    "recursive": true,
+                    "username": "public"
+                }
+            ]
+        },{
+            "local_path": "/home/hawaii_climate_products_container/preliminary/air_temp/data_outputs/tables/station_data/daily/raw_qc/county/daily_Tmax_KA_%y_%m_qc.csv",
+            "remote_path": "HCDP/production/temperature/max/day/ka/partial/station_data/%y/%m",
+            "rename": "temperature_max_day_ka_partial_station_data_%y_%m.csv",
+            "system_id": "ikewai-annotated-data",
+            "dir_permissions": [
+                {
+                    "permission": "READ",
+                    "recursive": true,
+                    "username": "public"
+                }
+            ]
+        },{
+            "local_path": "/home/hawaii_climate_products_container/preliminary/air_temp/data_outputs/tables/station_data/daily/raw_qc/county/daily_Tmin_KA_%y_%m_qc.csv",
+            "remote_path": "HCDP/production/temperature/min/day/ka/partial/station_data/%y/%m",
+            "rename": "temperature_min_day_ka_partial_station_data_%y_%m.csv",
+            "system_id": "ikewai-annotated-data",
+            "dir_permissions": [
+                {
+                    "permission": "READ",
+                    "recursive": true,
+                    "username": "public"
+                }
+            ]
+        },{
+            "local_path": "/home/hawaii_climate_products_container/preliminary/air_temp/data_outputs/tables/station_data/daily/raw_qc/county/daily_Tmax_OA_%y_%m_qc.csv",
+            "remote_path": "HCDP/production/temperature/max/day/oa/partial/station_data/%y/%m",
+            "rename": "temperature_max_day_oa_partial_station_data_%y_%m.csv",
+            "system_id": "ikewai-annotated-data",
+            "dir_permissions": [
+                {
+                    "permission": "READ",
+                    "recursive": true,
+                    "username": "public"
+                }
+            ]
+        },{
+            "local_path": "/home/hawaii_climate_products_container/preliminary/air_temp/data_outputs/tables/station_data/daily/raw_qc/county/daily_Tmin_OA_%y_%m_qc.csv",
+            "remote_path": "HCDP/production/temperature/min/day/oa/partial/station_data/%y/%m",
+            "rename": "temperature_min_day_oa_partial_station_data_%y_%m.csv",
+            "system_id": "ikewai-annotated-data",
+            "dir_permissions": [
+                {
+                    "permission": "READ",
+                    "recursive": true,
+                    "username": "public"
+                }
+            ]
+        },{
             "local_path": "/home/hawaii_climate_products_container/preliminary/air_temp/working_data/processed_data/hads/Tmin_hads_%y_%m_processed.csv",
             "remote_path": "HCDP/temperature/working_data/processed_data/hads/%y/%m/",
             "rename": "Tmin_hads_%y_%m_processed.csv",
